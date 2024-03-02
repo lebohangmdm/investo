@@ -170,3 +170,27 @@ select {
 .text-center {
   text-align: center;
 }
+
+.text-color-1 {
+  color: var(--clr-text-2);
+}
+
+.bg-partners {
+  background-color: var(--clr-bg-partners);
+}
+
+.bg-testimonial {
+  background-color: var(--clr-bg-pearl);
+}
+
+.bg-cta {
+  background-color: #e9ebee;
+}
+
+.bg-black {
+  background-color: var(--clr-primary-dark);
+}
+
+.border-1 {
+  border-bottom: 1px solid var(--clr-lighter-dark);
+}

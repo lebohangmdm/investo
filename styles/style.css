@@ -233,33 +233,6 @@
   grid-row: 2;
 }
 
-/* 
-.grid-img-box {
-  position: relative;
-  height: 73rem;
-  max-width: 60rem;
-  grid-row: 2;
-}
-
-.join-img:nth-child(1) {
-  height: 20rem;
-  width: 15rem;
-  position: absolute;
-  object-fit: cover;
-  border-radius: 31px;
-  top: 0;
-  right: 0;
-}
-.join-img:nth-child(2) {
-  height: 30rem;
-  width: 24rem;
-  position: absolute;
-  top: 6.4rem;
-  left: 0;
-  object-fit: cover;
-  border-radius: 31px;
-} */
-
 .grid-img-box::before {
   position: absolute;
   background-image: url("/trustpilot.png");
@@ -276,16 +249,6 @@
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-
-/* .join-img:nth-child(3) {
-  position: absolute;
-  height: 30rem;
-  width: 25rem;
-  object-fit: cover;
-  border-radius: 20px;
-  top: 36rem;
-  right: 0;
-} */
 
 .bg-testimonials {
   background: linear-gradient(
@@ -343,3 +306,93 @@
   display: block;
   text-align: center;
 }
+
+/* FOOTER */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.6rem;
+}
+
+.logo-col {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.footer-tree-logo {
+  color: var(--clr-bg-pearl);
+  height: 5.2rem;
+  background-color: transparent;
+  stroke: white;
+  margin-right: 0.4rem;
+}
+
+.footer-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-text-2);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: var(--clr-text-white);
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--clr-primary-white);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.copyright-col {
+  font-size: 1rem;
+}
+
+.copyright-col p:first-child {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.copyright-col > p {
+  color: var(--clr-text-1);
+  margin-bottom: 1.2rem;
+}
+
+.line {
+  margin-block: 3.2rem 1.6rem;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.copyright {
+  font-size: 1rem;
+  color: var(--clr-text-white);
+  padding-bottom: 3.2rem;
+}
+
+/*font  size
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
