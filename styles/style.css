@@ -1,6 +1,6 @@
 /* SECTION HEADER */
 .header {
-  height: 100vh;
+  height: 100dvh;
 
   background-image: url("/hero.jpg");
   background-repeat: no-repeat;
@@ -124,11 +124,7 @@
 }
 
 .small-text {
-  padding-bottom: 2.4rem;
-}
-
-.btn-container {
-  margin-top: 6.4rem;
+  font-size: 1.2rem;
 }
 
 /* NAVIGATION */

@@ -131,6 +131,10 @@ select {
   padding-block: 9.6rem 6.4rem;
 }
 
+.padding-block-md {
+  padding-block: 4.4rem;
+}
+
 .fw-600 {
   font-weight: var(--ff-fw-bold) !important;
 }
@@ -193,4 +197,8 @@ select {
 
 .border-1 {
   border-bottom: 1px solid var(--clr-lighter-dark);
+}
+
+.margin-top-md {
+  margin-top: 3.2rem;
 }
